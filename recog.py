@@ -11,7 +11,7 @@ import cv2
 # specific demo. If you have trouble installing it, try any of the other demos that don't require it instead.
 
 # Get a reference to webcam #0 (the default one)
-video_capture = cv2.VideoCapture(0)
+video_capture = cv2.VideoCapture(0)"""web cam"""
 
 # Load a sample picture and learn how to recognize it.
 Ayush_image = face_recognition.load_image_file("Ayush.jpeg")
@@ -109,3 +109,4 @@ while True:
 # Release handle to the webcam
 video_capture.release()
 cv2.destroyAllWindows()
+print ("Hello Nippun")
